@@ -1,0 +1,6 @@
+before fork: pid=15384, number=10
+child: pid=15385, ppid=15384, fork_return=0, number=10
+child: changed number=99; exiting with 7
+parent: pid=15384, child_pid=15385, number=10
+parent: waitpid returned 15385, number=10
+parent: child exit code=7

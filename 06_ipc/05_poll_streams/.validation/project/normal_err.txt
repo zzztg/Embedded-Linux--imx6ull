@@ -1,0 +1,2 @@
+stderr: pid=598
+stderr: diagnostic complete

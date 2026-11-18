@@ -1,0 +1,1 @@
+stdout: this line goes to the file.

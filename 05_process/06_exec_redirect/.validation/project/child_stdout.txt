@@ -1,0 +1,5 @@
+new program: pid=2333, ppid=2332, argc=3
+argv[0]=args_demo
+argv[1]=hello
+argv[2]=i.MX6ULL
+new program: returning 7

@@ -1,0 +1,8 @@
+initial: offset=0
+first read: ABCD (4 bytes)
+after read: offset=4
+move to byte 2: offset=2
+after overwrite: offset=4
+file end: offset=11
+rewind: offset=0
+second read: ABxy (4 bytes)

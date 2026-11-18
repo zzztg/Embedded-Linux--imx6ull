@@ -1,0 +1,11 @@
+server: listening on 0.0.0.0:8892; listen_fd=3; limit=2 clients
+server: accepted client 1; connection_fd=4; active=1
+server: client 1 read=16; echoed_total=16
+server: accepted client 2; connection_fd=5; active=2
+server: listener closed after accepting 2 clients
+server: client 2 read=16; echoed_total=16
+server: client 2 EOF
+server: client 2 closed; active=1
+server: client 1 EOF
+server: client 1 closed; active=0
+server: accepted=2; echoed_total=32 bytes; exiting
