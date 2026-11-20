@@ -1,0 +1,13 @@
+server: listening on 0.0.0.0:8893; response=524288 bytes per client
+server: accepted client 1; fd=4; pending=524288; active=1
+server: client 1 first send requested=524288, accepted=6144
+server: client 1 send would block; progress=8192/524288; back to poll
+server: accepted client 2; fd=5; pending=524288; active=2
+server: listener closed after 2 clients
+server: client 2 first send requested=524288, accepted=32768
+server: client 2 send would block; progress=80192/524288; back to poll
+server: client 2 send resumed after EAGAIN
+server: client 2 closed; queued=524288/524288; EAGAIN_count=2; active=1
+server: client 1 send resumed after EAGAIN
+server: client 1 closed; queued=524288/524288; EAGAIN_count=63; active=0
+server: accepted=2; queued_total=1048576 bytes; exiting

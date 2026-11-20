@@ -1,0 +1,7 @@
+#ifndef TRANSFER_COMMON_H
+#define TRANSFER_COMMON_H
+
+#define TCP_PORT 8893
+#define RESPONSE_BYTES (512U * 1024U)
+
+#endif

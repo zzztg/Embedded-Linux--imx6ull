@@ -1,0 +1,24 @@
+# Compiler-generated object and dependency files.
+*.o
+*.d
+
+# Build directories used by the Makefile examples.
+build/
+
+# Early examples put their executables beside the source files.
+/01_hello/hello
+/02_signals/signal_demo
+/03_file_io/02_write/file_write
+/03_file_io/03_read/file_read
+/03_file_io/04_seek/file_seek
+/03_file_io/05_append/file_append
+/03_file_io/06_buffer/buffer_demo
+/04_build/**/file_app
+
+# Native and cross-compiled executables used by validation scripts.
+**/.validation/**/*_host
+**/.validation/**/*_arm
+**/.validation/**/*_native
+**/.validation/**/check_core
+**/.validation/**/check_notifications
+/02_signals/.validation/signal_demo_O2.s

@@ -1,0 +1,11 @@
+server: listening on 0.0.0.0:8894; output capacity=64 per client
+server: accepted client 1; fd=4; active=1
+server: client 1 output buffer full; pause receiving
+server: client 1 input EOF; pending=1
+server: client 1 output drained after EOF
+server: client 1 closed; received=1025 queued=1025 full_count=16 active=0
+server: accepted client 2; fd=4; active=1
+server: listener closed after 2 clients
+server: client 2 input EOF; pending=0
+server: client 2 closed; received=0 queued=0 full_count=0 active=0
+server: accepted=2; received_total=1025 queued_total=1025; exiting
